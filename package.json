@@ -16,12 +16,12 @@
     ],
     "license": "MIT",
     "scripts": {
-        "format": "make format",
+        "format": "format",
         "precommit": "lint-staged",
         "test": "jest",
-        "watch-test": "make watch-test",
-        "server": "make run",
-        "prepublish": "make build"
+        "watch-test": "watch-test",
+        "server": "start",
+        "prepublish": "build"
     },
     "lint-staged": {
         "src/**/*.js": [
